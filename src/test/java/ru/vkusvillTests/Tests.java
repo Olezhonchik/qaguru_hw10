@@ -15,11 +15,11 @@ public class Tests extends TestBase {
         pageObject
                 .openPage()
                 .loginButtonClick()             //Нажатие по кнопке "Войти" на главном экране
-                .phoneNumber("9505511064") //Ввод номера телефона
-                .smsCode("013600")          //Ввод смс-кода
+                .phoneNumber("") //(Ввести номер!!!!!)  //Ввод номера телефона
+                .smsCode("")     //(Ввести код!!!!!)     //Ввод смс-кода (Ввести код!!!!!)
                 //$x("//button[@class='VV_Button _desktop-lg _tablet-lg _mobile-md _block' and normalize-space(text())='Войти']").click();
                 .profileButtonClick()               //Переход в личный кабинет
-                .checkCardNumber("M383581"); //Проверка имени в личном кабинете
+                .checkCardNumber(""); //(Ввести номер карты!!!!!)  //Проверка имени в личном кабинете
     }
 
     @DisplayName("Поиск товара")
