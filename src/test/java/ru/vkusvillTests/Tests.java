@@ -22,7 +22,6 @@ public class Tests extends TestBase {
                 .checkCardNumber("M383581"); //Проверка имени в личном кабинете
     }
 
-
     @DisplayName("Поиск товара")
     @ValueSource(strings = {
             "Банан", "Хлеб"
